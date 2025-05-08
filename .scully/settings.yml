@@ -1,0 +1,11 @@
+identifier: maa1ffp7n1i4p2db
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: my-blog
+homeFolder: C:\Projects\angular-16-app\my-blog
+distFolder: dist/my-blog
+outDir: C:\Projects\angular-16-app\my-blog\dist\static
+handle404: ''
+allowErrorCollect: false
