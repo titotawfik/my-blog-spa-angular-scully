@@ -1,4 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ActivatedRoute } from '@angular/router';
+import { of } from 'rxjs';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 import { BlogComponent } from './blog.component';
 
@@ -8,7 +11,11 @@ describe('BlogComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BlogComponent ]
+      declarations: [ BlogComponent ],
+      imports: [ ScullyLibModule ],
+      providers: [
+        { provide: ActivatedRoute, useValue: { params: of({ id: 'test-id' }) } }
+      ]
     })
     .compileComponents();
   }));
