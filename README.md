@@ -15,6 +15,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
 Run `npx scully --project my-blog` to build the blog. artifacts will be stored in the `dist/static` directory. md files will be stored in the `blog/` directory.
 
 ## Running unit tests
